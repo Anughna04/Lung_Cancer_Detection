@@ -16,7 +16,7 @@ This project aims to predict whether a lung cancer patient is likely to **surviv
 
 ✅ Real-time prediction of lung cancer survival  
 ✅ Dual input modes: manual form and CSV upload  
-✅ Model confidence (%) shown for each prediction  
+✅ Model confidence (85%) shown for each prediction  
 ✅ Pre-trained model using historical clinical data  
 ✅ Error handling and user-friendly alerts for invalid input  
 
@@ -71,14 +71,14 @@ Download dataset to train from kaggle : https://www.kaggle.com/datasets/jillanis
 
 📂 Project Structure
 
-lung_cancer_survival/
-├── app.py                # Streamlit web app
-├── train_model.py        # Model training script
-├── model.pkl             # Trained ML model
-├── encoder.pkl           # OneHotEncoder for categorical features
-├── scaler.pkl            # StandardScaler for numeric features
-├── dataset.csv           # (Optional) Raw input dataset
-└── README.md             # Project documentation
+      lung_cancer_survival/
+      ├── app.py                # Streamlit web app
+      ├── train_model.py        # Model training script
+      ├── model.pkl             # Trained ML model
+      ├── encoder.pkl           # OneHotEncoder for categorical features
+      ├── scaler.pkl            # StandardScaler for numeric features
+      ├── dataset.csv           # (Optional) Raw input dataset
+      └── README.md             # Project documentation
 
 👩‍💻 Author
 
